@@ -2,7 +2,8 @@
 
 from functools import reduce
 
-vot5_table = { 'a':'e', 'e':'i', 'i':'o', 'u':'a' , 'A': 'E', 'E': 'I', 'I': 'O', 'O': 'U', 'U': 'A'}  
+vot5_table = { 'a':'e', 'e':'i', 'i':'o', 'o':'u', 'u':'a',
+               'A':'E', 'E':'I', 'I':'O', 'O':'U', 'U':'A'}  
 
 def vot5(s):
   """Shift every vowel and leave everything else unchanged. Case-preserving."""
