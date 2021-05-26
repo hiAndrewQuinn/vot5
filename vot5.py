@@ -11,3 +11,6 @@ def vot5(s):
 
 if __name__ == "__main__":
   print(vot5("An example of vot5 in action."))
+            # En ixempli uf vut5 on ectoun.
+  print(vot5("It only takes a second to adjust your eyes! But it's not _fully_ automatic. 😊"))
+            # Ot unly tekis e sicund tu edjast yuar iyis! Bat ot's nut _fally_ eatumetoc. 😊
